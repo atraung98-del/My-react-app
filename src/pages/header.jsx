@@ -145,7 +145,7 @@ function Profile(){
                      <a href="#">About</a>
                 </li>
                 <li>
-                     <a href="#">Projects</a>
+                     <a href="#">The-Projects</a>
                 </li>
                 <li>
                     <a href="#">Contact</a>
