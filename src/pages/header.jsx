@@ -139,7 +139,7 @@ function Profile(){
         <div id='navigation'>
             <ul>
                 <li>
-                     <a href="#">Home</a>  
+                     <a href="#">My-Home</a>  
                 </li>
                 <li>
                      <a href="#">About</a>
