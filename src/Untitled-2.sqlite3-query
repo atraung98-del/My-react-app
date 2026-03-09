@@ -1,0 +1,33 @@
+-- database: ./first.db
+
+SELECT * FROM `Table`;
+-- crud--
+INSERT INTO `Table`(name,age) VALUES ("Mg Mg",30);
+INSERT INTO `Table`(name,age) VALUES ("Ko Ko",43);
+
+-- Read--
+SELECT id,name from roles ORDER BY name DESC LIMIT 3;
+SELECT id,name from 'Table' ORDER BY name DESC LIMIT 3;
+
+SELECT * FROM (SELECT id,name FROM roles ORDER BY name DESC LIMIT 3)LIMIT 0;
+
+SELECT id,name FROM roles ORDER BY name DESC LIMIT 3;
+
+UPDATE 'Table' SET name='Editor' WHERE id=1 ;
+UPDATE 'Table' SET age=20 WHERE id=3;
+
+UPDATE 'Table' SET id=4 WHERE age=30;
+UPDATE 'Table' SET id=5 WHERE name="Ko Ko";
+
+INSERT INTO 'Table'(id,name,age) VALUES (6,"Aung Thura",27);
+
+DELETE FROM 'Table' WHERE name="Mg Mg";
+
+
+
+INSERT INTO 'Table' (id,name,age) VALUES(7,'Shwe Yoe',27);
+
+UPDATE 'Table' SET id=7 WHERE age=38;
+UPDATE 'Table' SET id=7 WHERE name="Editor";
+
+SELECT * FROM "Table";

@@ -1,0 +1,10 @@
+-- database: ./first.db
+
+SELECT * FROM `Table`;
+ALTER TABLE users ADD COLUMN agency TEXT;
+PRAGMA table_info(users);
+ALTER TABLE users ADD COLUMN location TEXT;
+PRAGMA table_info(users);
+PRAGMA table_info(users);
+ALTER TABLE users ADD COLUMN status TEXT;
+PRAGMA tabel_info(users);
