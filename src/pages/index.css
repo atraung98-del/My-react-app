@@ -91,7 +91,7 @@ button:focus-visible {
   margin:4px auto;
   cursor:pointer;
   justify-content: flex-start;
-  background:#213547;
+  background:#d91a96;
   color:white;
   height:100px;
   border-radius:calc(10px);
@@ -213,4 +213,7 @@ header{
 }
 #localhome{
   color:black;
+}
+#navigation ul{
+  background-color:red;
 }
