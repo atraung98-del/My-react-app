@@ -1,0 +1,9 @@
+-- database: c:\Users\User\OneDrive\Desktop\reactpracticeing\hello-react\src\first.db
+
+SELECT * FROM `Table`;
+
+INSERT INTO 'Table' (name,age) VALUES ("Soe Soe",37);
+
+DELETE FROM 'Table' WHERE id=7;
+UPDATE 'Table' SET id=8 WHERE age=37;
+INSERT INTO 'Table' (id,Text) VALUES ("new user");

@@ -1,0 +1,4 @@
+-- database: c:\Users\User\OneDrive\Desktop\reactpracticeing\hello-react\src\first.db
+
+SELECT * FROM `Table`
+ORDER BY `Text` DESC;

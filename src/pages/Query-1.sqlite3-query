@@ -1,0 +1,10 @@
+-- database: c:\Users\User\OneDrive\Desktop\reactpracticeing\hello-react\first.db
+
+SELECT * FROM `Table`;
+INSERT INTO 'Table' (id,name,age,Status) VALUES(2,"ShweYoe",28,"Single");
+DELETE FROM 'Table' WHERE id=2;
+INSERT INTO 'Table' (id,name,age,Status) VALUES (2,"Shwe Yoe",28,"Single");
+UPDATE 'Table' SET Status="new user" Where id=1;
+UPDATE 'Table' SET Status="new user" Where id=2;
+UPDATE 'Table' SET name="example@gmail.com" WHERE id=2;
+UPDATE 'Table' SET name="atraung98@gmail.com" WHERE id=1;

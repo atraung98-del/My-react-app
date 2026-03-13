@@ -1,0 +1,4 @@
+-- database: c:\Users\User\OneDrive\Desktop\reactpracticeing\hello-react\first.db
+
+SELECT * FROM `Table`;
+INSERT INTO 'Table' (id,name) VALUES (3,"Tokyo");

@@ -7,7 +7,12 @@ import Stack from '@mui/material/Stack';
 import { deepPurple } from '@mui/material/colors';
 import LocationPinIcon from '@mui/icons-material/LocationPin';
 import AccessTimeOutlinedIcon from '@mui/icons-material/AccessTimeOutlined';
-
+import { createContext } from "react";
+import {useContext} from "react";
+import App from '../App.jsx';
+import { ThemeContext } from '@emotion/react';
+import CssBaseline from '@mui/material/CssBaseline';
+const AppContext=createContext();
  function LetterAvatars() {
   return (
     <Stack direction="row" spacing={2} id="profilephoto">
@@ -133,6 +138,8 @@ function Profile(){
 }
 
  export default function Gallery(){
+
+   
     const navigate=useNavigate();
     return(
         
