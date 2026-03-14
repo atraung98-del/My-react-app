@@ -1,6 +1,7 @@
 
 import {useState} from "react";
 import {Link} from "react-router-dom";
+import Userdata from "./userdata.jsx";
 import './index.css';
 import Gallery from  "./header";
 import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
@@ -22,6 +23,7 @@ export default function Signup(){
             </div>
         {show && (
         <div id="formstyle" style={{display:"block"}}>
+            <Userdata/>
            <p>
 
             Wildlife refers to undomesticated animals and uncultivated plant species which can exist in their natural habitat, but has come to include all organisms that grow or live wild in an area without being introduced by humans.[1] Wildlife was also synonymous to game, birds and mammals hunted for sport. Wildlife can be found in all ecosystems. Deserts, plains, grasslands, woodlands, forests, and other areas including the most developed urban areas, all have distinct forms of wildlife. While the term in popular culture usually refers to animals that are untouched by human behavior, most scientists agree that much wildlife is affected by it.[2]
