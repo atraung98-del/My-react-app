@@ -3,7 +3,7 @@ import {useState,useEffect} from "react";
 export default function Userdata(){
 
         
-        const [user,setUser]=useState([]);
+        const [user,setUser]=useState(null);
 
         useEffect(()=>{
 
@@ -11,7 +11,7 @@ export default function Userdata(){
             async function fetchUsers(){
                 
                 
-                const res=await fetch("http://localhost:5000/users");
+                const res=await fetch("https://api.openweathermap.org/data/2.5/weather?q=Tokyo&appid=5c686168177dac998fb196671fa83748");
                 const data=await res.json();
                 setUser(data)
 
@@ -22,17 +22,13 @@ export default function Userdata(){
         return(
 
             <div>
-      {
-        user.map(users=>(
-            <p key={users.id}>
-                {users.id}.
-                {users.name}/
-                {users.status}/
-                {users.location}
+     {
+        user && (
+            <p>
+                {user.name},{user.main}
             </p>
         )
-        )
-      }
+     }
     </div>
         )
 }

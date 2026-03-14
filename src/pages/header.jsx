@@ -8,7 +8,7 @@ import { deepPurple } from '@mui/material/colors';
 import LocationPinIcon from '@mui/icons-material/LocationPin';
 import AccessTimeOutlinedIcon from '@mui/icons-material/AccessTimeOutlined';
 import { createContext } from "react";
-// import Userdata from "./userdata.jsx";
+import Userdata from "./userdata.jsx";
 import App from '../App.jsx';
 import { ThemeContext } from '@emotion/react';
 import CssBaseline from '@mui/material/CssBaseline';
@@ -212,7 +212,7 @@ function Profile(){
         <Profilend/>
     
         </div>
-         {/* <Userdata/> */}
+         <Userdata/>
         </div>
     )
 }
