@@ -37,4 +37,6 @@ db.serialize(()=>{
   db.run("INSERT INTO users (id,name,agency,location,status)VALUES (2,'Tokyo','OON-agen','148 129','South')");
   db.run("INSERT INTO users (id,name,agency,location,status) VALUES (3,'Osaka','CCD-agen','231 198','West') ");
   db.run("INSERT INTO users (id,name,agency,location,status) VALUES (4,'Kyoto','BBC-agen','213 110','East')");
+  db.run("INSERT INTO users (id,name,agency,location,status) VALUES (5,'Nagano','VVN-agen','330 990','Middle')");
+  db.run("INSERT INTO users (id,name,agency,location,status) VALUES (6,'Matusmoto','NNO-agen','008 887','Middle of Nagano')");
 });
