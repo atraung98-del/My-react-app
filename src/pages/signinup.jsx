@@ -6,6 +6,13 @@ import './index.css';
 import Gallery from  "./header";
 import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
 
+function Theweather(){
+    return(
+        
+            <img src="https://www.tripsavvy.com/thmb/g3tZF8OtQrECLUNlkzTBjKsrcxw=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-619298606-0d01c26ec5024e2fa863cb97b2b70668.jpg" id="tokyo"/>
+        
+    )
+}
 export default function Signup(){
    
     const [show,setShow]=useState(false);
@@ -22,6 +29,7 @@ export default function Signup(){
             </button>
 
             <Userdata/>
+            <Theweather/>
             </div>
             
         {show && (
@@ -29,11 +37,7 @@ export default function Signup(){
             
            <p>
 
-            Wildlife refers to undomesticated animals and uncultivated plant species which can exist in their natural habitat, but has come to include all organisms that grow or live wild in an area without being introduced by humans.[1] Wildlife was also synonymous to game, birds and mammals hunted for sport. Wildlife can be found in all ecosystems. Deserts, plains, grasslands, woodlands, forests, and other areas including the most developed urban areas, all have distinct forms of wildlife. While the term in popular culture usually refers to animals that are untouched by human behavior, most scientists agree that much wildlife is affected by it.[2]
-
-Humans have historically tended to separate civilization from wildlife in a number of ways, including the legal, social and moral senses. Some animals, however, have adapted to suburban environments. This includes urban wildlife such as feral cats, dogs, mice, and rats. Some religions declare certain animals to be sacred, and in modern times, concern for the natural environment has provoked activists to protest against the exploitation of wildlife for human benefit or entertainment.
-
-Different countries have various legal definitions.
+           Weather Details
 
            </p>
            <h2>Trade</h2>

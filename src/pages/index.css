@@ -181,7 +181,7 @@ header{
 }
 #signinupid{
   color:black;
-  background-color:#2b6ce6;
+  
   margin-left:10px;
 }
 /* formui */
@@ -216,4 +216,8 @@ header{
 }
 #navigation ul{
   background-color:rgb(22, 50, 121);
+}
+#tokyo{
+  width:300px;
+  height:200px;
 }
