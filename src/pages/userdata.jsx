@@ -37,7 +37,8 @@ export default function Userdata(){
             <div>
             <p>
                 City name-{user.name},Temperature:{user.main.temp}°C ,
-                Humidity:{user.main.humidity}
+                Humidity:{user.main.humidity},
+                Feel Like:{user.main.feels_like}
             </p>
             </div>
         )):(
