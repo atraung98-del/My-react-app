@@ -20,8 +20,10 @@ export default function Signup(){
 
                <ArrowDropDownIcon/>
             </button>
-            </div>
+
             <Userdata/>
+            </div>
+            
         {show && (
         <div id="formstyle" style={{display:"block"}}>
             
