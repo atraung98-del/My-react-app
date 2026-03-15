@@ -134,7 +134,10 @@ header{
   padding:2px;
   transition: scale .4s;
   border-radius:5px;
+  position:static;
+  
 }
+
 .imgs:hover{
   scale:1.1;
 }
@@ -220,4 +223,17 @@ header{
 #tokyo{
   width:300px;
   height:200px;
+}
+.active{
+  position:absolute;
+  background:rgb(21, 241, 21);
+  color:rgb(96, 94, 94);
+  font-size:12px;
+  width:70px;
+  text-align:center;
+  border-radius:10px;
+  margin-left:230px;
+}
+.status{
+  position:relative;
 }

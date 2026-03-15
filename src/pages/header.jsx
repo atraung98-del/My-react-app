@@ -117,8 +117,12 @@ useEffect(
 
 function Profilealpha(){
     return(
+      <div classname="status">
+        <p className='active'>Active</p>
         <img src="https://th.bing.com/th/id/OIP.5gxzxwG_Jr862vJQ3uJDdgHaE8?w=291&h=193&c=7&r=0&o=7&dpr=1.1&pid=1.7&rm=3" className='imgs' />
+        </div>
     )
+
 }
 function Profilest(){
     return(
